@@ -1,0 +1,1 @@
+ID: 0, Data Nastere: 06.02.1998 19:04:29, Nume: Igor, Prenume: Croitotru, CNP: 1234567890, Adresa: Universitatii 13, Numar Telefon: 07234748343, ID Grupa: 28, ID Specialitate: 24

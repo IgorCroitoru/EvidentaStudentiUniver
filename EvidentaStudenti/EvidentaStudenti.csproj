@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0664257-8988-4733-82F5-35FE442D2795}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EvidentaStudenti</RootNamespace>
+    <AssemblyName>EvidentaStudenti</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdaugaGrupaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdaugaGrupaForm.Designer.cs">
+      <DependentUpon>AdaugaGrupaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Butoane\CustomButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FacultateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacultateForm.Designer.cs">
+      <DependentUpon>FacultateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdaugaStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdaugaStudentForm.Designer.cs">
+      <DependentUpon>AdaugaStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrupeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrupeForm.Designer.cs">
+      <DependentUpon>GrupeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificaFacultateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificaFacultateForm.Designer.cs">
+      <DependentUpon>ModificaFacultateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificaSpecialitateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificaSpecialitateForm.Designer.cs">
+      <DependentUpon>ModificaSpecialitateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialitatiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecialitatiForm.Designer.cs">
+      <DependentUpon>SpecialitatiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentiForm.Designer.cs">
+      <DependentUpon>StudentiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdaugaGrupaForm.resx">
+      <DependentUpon>AdaugaGrupaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdaugaStudentForm.resx">
+      <DependentUpon>AdaugaStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultateForm.resx">
+      <DependentUpon>FacultateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrupeForm.resx">
+      <DependentUpon>GrupeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificaFacultateForm.resx">
+      <DependentUpon>ModificaFacultateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificaSpecialitateForm.resx">
+      <DependentUpon>ModificaSpecialitateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SpecialitatiForm.resx">
+      <DependentUpon>SpecialitatiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentiForm.resx">
+      <DependentUpon>StudentiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Helper\Helper.csproj">
+      <Project>{21ad18eb-b32b-4867-9a72-87a68165475c}</Project>
+      <Name>Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibrarieModele\LibrarieModele.csproj">
+      <Project>{4b5e7d02-a43b-4ad4-b8fb-b75fe26aedf2}</Project>
+      <Name>LibrarieModele</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NivelAccesDate\NivelAccesDate.csproj">
+      <Project>{59e0493c-b3aa-4a8f-97e6-25062f0fe230}</Project>
+      <Name>NivelAccesDate</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resurse\4177409791543238955-1281.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

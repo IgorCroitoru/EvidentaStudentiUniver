@@ -1,0 +1,6 @@
+C:\Users\Igor\source\repos\EvidentaStudenti\Helper\bin\Debug\Helper.dll
+C:\Users\Igor\source\repos\EvidentaStudenti\Helper\bin\Debug\Helper.pdb
+C:\Users\Igor\source\repos\EvidentaStudenti\Helper\obj\Debug\Helper.csproj.AssemblyReference.cache
+C:\Users\Igor\source\repos\EvidentaStudenti\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+C:\Users\Igor\source\repos\EvidentaStudenti\Helper\obj\Debug\Helper.dll
+C:\Users\Igor\source\repos\EvidentaStudenti\Helper\obj\Debug\Helper.pdb
